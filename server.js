@@ -21,7 +21,7 @@ app.post("/send-contact-email", async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "airtelpkvishwa@gmail.com", // Where you want to receive the form data
+    to: "mvishnupalanivel@gmail.com", // Where you want to receive the form data
     subject: `New Contact Message from ${name}`,
     html: `
       <h3>Customer Contact Information</h3>
